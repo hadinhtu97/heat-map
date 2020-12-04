@@ -1,7 +1,36 @@
+html, body {
+    margin: 0;
+    font-family: monospace;
+}
+
 #heat-map {
     text-align: center;
 }
+
 #title {
-    color: #5e0080;
+    color: #dd4814;
     font-size: 30px;
+}
+
+#description {
+    font-size: 20px;
+    color: #5e0080;
+}
+
+#x-axis path, #x-axis line {
+    color: #5e0080
+}
+
+#y-axis path, #y-axis line {
+    color: #5e0080
+}
+
+#x-axis text, #y-axis text {
+    color: #dd4814
+}
+
+#tooltip {
+    position: absolute;
+    text-align: center;
+    background-color: lightsteelblue;
 }
