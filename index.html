@@ -1,11 +1,16 @@
+<link rel="stylesheet" href="style.css">
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
 <div id="heat-map">
-    <div id="tooltip" data-year></div>
-    <div id="title"></div>
-    <div id="description"></div>
-    <div id="graph">
-        <g id="x-axis"></g>
-        <g id="y-axis"></g>
-        <rect class="cell" data-month data-year data-temp></rect>
+    <div id="tooltip"></div>
+    <div id="title">
+        Monthly Global Land-Surface Temperature
     </div>
+    <div id="description">
+        1753 - 2015, baseTemperature: 8.66
+    </div>
+    <div id="graph"></div>
     <div id="legend"></div>
 </div>
+
+<script src="script.js"></script>
